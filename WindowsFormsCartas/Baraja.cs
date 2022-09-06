@@ -31,12 +31,15 @@ namespace WindowsFormsCartas
 
         public Cartas RobaCarta()
         {
-            Cartas c = this.listaCartas[0];
-            Console.WriteLine(this.listaCartas[0].CrearCarta());
-            this.listaCartas.RemoveAt(0);
+            Cartas c =null;
+            if (this.listaCartas.Count != 0)
+            {
+                c = this.listaCartas[0];
+                Console.WriteLine(this.listaCartas[0].CrearCarta());
+                this.listaCartas.RemoveAt(0);
+            }
             return c;
         }
-
         public Cartas CogeCarta(int numCarta)
         {
             Cartas c = this.listaCartas[numCarta];

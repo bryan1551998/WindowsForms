@@ -11,6 +11,7 @@ namespace WindowsFormsCartas
         //Atributos 
         int numero;
         int palo;
+       
 
         //Constructor
         public Cartas(int numero, int palo)
@@ -22,8 +23,9 @@ namespace WindowsFormsCartas
         //Metodos
         public string CrearCarta()
         {
-            String[] palos = { "Oros", "Copas", "Espadas", "Bastos" };
-            return this.numero + " - " + "de " + palos[palo];
+            String[] palos = { "Corazones", "Diamantes", "Picas", "Treboles" };
+            return "_" + this.numero + "_" + palos[palo];
+
         }
 
         //Get and Set

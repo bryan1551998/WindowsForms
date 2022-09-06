@@ -67,6 +67,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -80,6 +81,156 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-Corazones.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-Diamantes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-Picas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-Treboles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-Corazones.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-Diamantes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-Picas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-Treboles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-Corazones.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-Diamantes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-Picas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-Treboles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-Corazones.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-Diamantes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-Picas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-Treboles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5-Corazones.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5-Diamantes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5-Picas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5-Treboles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6-Corazones.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6-Diamantes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6-Picas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6-Treboles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7-Corazones.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7-Diamantes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7-Picas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7-Treboles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8-Corazones.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8-Diamantes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8-Picas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8-Treboles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9-Corazones.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9-Diamantes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9-Picas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9-Treboles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10-Corazones.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10-Diamantes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10-Picas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10-Treboles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11-Corazones.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11-Diamantes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11-Picas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11-Treboles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12-Corazones.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12-Diamantes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12-Picas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12-Treboles.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carta-al-reves-Búsqueda-de-Google.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

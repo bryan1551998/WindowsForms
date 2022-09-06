@@ -42,11 +42,14 @@ namespace WindowsFormsCartas
             this.barajarCartas = new System.Windows.Forms.Button();
             this.cartaCoger = new System.Windows.Forms.Label();
             this.textCogerCarta = new System.Windows.Forms.Label();
+            this.pictureCard = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCard)).BeginInit();
             this.SuspendLayout();
             // 
             // botonCrearCartas
             // 
-            this.botonCrearCartas.Location = new System.Drawing.Point(628, 363);
+            this.botonCrearCartas.Location = new System.Drawing.Point(641, 343);
             this.botonCrearCartas.Name = "botonCrearCartas";
             this.botonCrearCartas.Size = new System.Drawing.Size(126, 61);
             this.botonCrearCartas.TabIndex = 0;
@@ -75,7 +78,7 @@ namespace WindowsFormsCartas
             // 
             this.btnCuantasCartas.Location = new System.Drawing.Point(394, 70);
             this.btnCuantasCartas.Name = "btnCuantasCartas";
-            this.btnCuantasCartas.Size = new System.Drawing.Size(131, 36);
+            this.btnCuantasCartas.Size = new System.Drawing.Size(139, 36);
             this.btnCuantasCartas.TabIndex = 3;
             this.btnCuantasCartas.Text = "Cuantas cartas";
             this.btnCuantasCartas.UseVisualStyleBackColor = true;
@@ -84,17 +87,18 @@ namespace WindowsFormsCartas
             // textoCuantasCartas
             // 
             this.textoCuantasCartas.AutoSize = true;
-            this.textoCuantasCartas.Location = new System.Drawing.Point(394, 47);
+            this.textoCuantasCartas.Location = new System.Drawing.Point(527, 46);
             this.textoCuantasCartas.Name = "textoCuantasCartas";
-            this.textoCuantasCartas.Size = new System.Drawing.Size(46, 17);
+            this.textoCuantasCartas.Size = new System.Drawing.Size(24, 17);
             this.textoCuantasCartas.TabIndex = 4;
-            this.textoCuantasCartas.Text = "label1";
+            this.textoCuantasCartas.Text = "48";
+            this.textoCuantasCartas.Click += new System.EventHandler(this.textoCuantasCartas_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(394, 112);
+            this.button1.Location = new System.Drawing.Point(394, 123);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(131, 34);
+            this.button1.Size = new System.Drawing.Size(139, 34);
             this.button1.TabIndex = 5;
             this.button1.Text = "Robar carta";
             this.button1.UseVisualStyleBackColor = true;
@@ -102,9 +106,9 @@ namespace WindowsFormsCartas
             // 
             // btnCogerCarta
             // 
-            this.btnCogerCarta.Location = new System.Drawing.Point(394, 228);
+            this.btnCogerCarta.Location = new System.Drawing.Point(394, 234);
             this.btnCogerCarta.Name = "btnCogerCarta";
-            this.btnCogerCarta.Size = new System.Drawing.Size(131, 34);
+            this.btnCogerCarta.Size = new System.Drawing.Size(139, 34);
             this.btnCogerCarta.TabIndex = 6;
             this.btnCogerCarta.Text = "Coger carta";
             this.btnCogerCarta.UseVisualStyleBackColor = true;
@@ -113,7 +117,7 @@ namespace WindowsFormsCartas
             // cogerCarta
             // 
             this.cogerCarta.AutoSize = true;
-            this.cogerCarta.Location = new System.Drawing.Point(391, 158);
+            this.cogerCarta.Location = new System.Drawing.Point(394, 174);
             this.cogerCarta.Name = "cogerCarta";
             this.cogerCarta.Size = new System.Drawing.Size(127, 17);
             this.cogerCarta.TabIndex = 7;
@@ -122,19 +126,19 @@ namespace WindowsFormsCartas
             // 
             // cogerCartaInput
             // 
-            this.cogerCartaInput.Location = new System.Drawing.Point(394, 188);
+            this.cogerCartaInput.Location = new System.Drawing.Point(394, 194);
             this.cogerCartaInput.Name = "cogerCartaInput";
-            this.cogerCartaInput.Size = new System.Drawing.Size(131, 22);
+            this.cogerCartaInput.Size = new System.Drawing.Size(139, 22);
             this.cogerCartaInput.TabIndex = 8;
             this.cogerCartaInput.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btnCogerCartaAlazar
             // 
-            this.btnCogerCartaAlazar.Location = new System.Drawing.Point(394, 286);
+            this.btnCogerCartaAlazar.Location = new System.Drawing.Point(394, 289);
             this.btnCogerCartaAlazar.Name = "btnCogerCartaAlazar";
-            this.btnCogerCartaAlazar.Size = new System.Drawing.Size(131, 32);
+            this.btnCogerCartaAlazar.Size = new System.Drawing.Size(139, 37);
             this.btnCogerCartaAlazar.TabIndex = 9;
-            this.btnCogerCartaAlazar.Text = "Coger carta alazar";
+            this.btnCogerCartaAlazar.Text = "Coger carta al azar";
             this.btnCogerCartaAlazar.UseVisualStyleBackColor = true;
             this.btnCogerCartaAlazar.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -142,7 +146,7 @@ namespace WindowsFormsCartas
             // 
             this.barajarCartas.Location = new System.Drawing.Point(394, 343);
             this.barajarCartas.Name = "barajarCartas";
-            this.barajarCartas.Size = new System.Drawing.Size(131, 32);
+            this.barajarCartas.Size = new System.Drawing.Size(139, 32);
             this.barajarCartas.TabIndex = 10;
             this.barajarCartas.Text = "Barajar";
             this.barajarCartas.UseVisualStyleBackColor = true;
@@ -151,7 +155,7 @@ namespace WindowsFormsCartas
             // cartaCoger
             // 
             this.cartaCoger.AutoSize = true;
-            this.cartaCoger.Location = new System.Drawing.Point(595, 47);
+            this.cartaCoger.Location = new System.Drawing.Point(595, 46);
             this.cartaCoger.Name = "cartaCoger";
             this.cartaCoger.Size = new System.Drawing.Size(172, 17);
             this.cartaCoger.TabIndex = 11;
@@ -163,15 +167,36 @@ namespace WindowsFormsCartas
             this.textCogerCarta.AutoSize = true;
             this.textCogerCarta.Location = new System.Drawing.Point(598, 70);
             this.textCogerCarta.Name = "textCogerCarta";
-            this.textCogerCarta.Size = new System.Drawing.Size(46, 17);
+            this.textCogerCarta.Size = new System.Drawing.Size(0, 17);
             this.textCogerCarta.TabIndex = 12;
-            this.textCogerCarta.Text = "label1";
+            // 
+            // pictureCard
+            // 
+            this.pictureCard.Location = new System.Drawing.Point(598, 101);
+            this.pictureCard.Name = "pictureCard";
+            this.pictureCard.Size = new System.Drawing.Size(169, 196);
+            this.pictureCard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureCard.TabIndex = 13;
+            this.pictureCard.TabStop = false;
+            this.pictureCard.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(391, 46);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(130, 17);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Cuantas cartas hay";
+            this.label1.Click += new System.EventHandler(this.label1_Click_2);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureCard);
             this.Controls.Add(this.textCogerCarta);
             this.Controls.Add(this.cartaCoger);
             this.Controls.Add(this.barajarCartas);
@@ -187,6 +212,7 @@ namespace WindowsFormsCartas
             this.Controls.Add(this.botonCrearCartas);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureCard)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -207,6 +233,8 @@ namespace WindowsFormsCartas
         private System.Windows.Forms.Button barajarCartas;
         private System.Windows.Forms.Label cartaCoger;
         private System.Windows.Forms.Label textCogerCarta;
+        private System.Windows.Forms.PictureBox pictureCard;
+        private System.Windows.Forms.Label label1;
     }
 }
 
